@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+header{
+    align-items: center; 
+    padding:0 50px; 
+}
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo ul{
+    display:flex;
+    /* margin: 0; */
+    list-style: none;
+    gap: 30px;
+    color: #842d6d;
+}
+.adventure{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.textcontainer{
+    padding-left: 120px;
+    /* padding-top: 20px; */
+    color:#842d6d;
+    flex-direction: column;
+}
+.textcontainer p{
+    font-size: 55px;
+}
+.imagecontainer{
+    position:static;
+}
+.textcontainer select{
+    position: absolute;
+    width:600px;
+    height: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
+    color: grey;
+}
+.textcontainer button{
+    margin-top: 70px;
+    width: 150px;
+    color: white;
+    background-color: #842d6d;
+    height: 40px;
+}
+.destinations{
+    /* padding-left: 100px; */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+.destinations h1{
+    color: #842d6d;
+    font-size:xx-large;
+}   
+.destination{
+    color:#842d6d;
+}
+.destiny h1{
+    flex-grow: 1;
+}
+.destiny p{
+    flex-grow: 1;
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding:10px; */
+    /* width: 100%; */
+    margin-left: 0;
+    padding-left: 0;
+    gap: 5px;
+    
+}
+.place{
+    flex-basis: 30%;
+    margin-top: 30px;
+    /* margin: 5px; */
+}
+.places img{
+    max-width: 100%;
+    max-height: 300px;
+}
+.quote{
+    color:black;
+}
+.description{
+    color: black;
+}
+.place button{
+    color: white;
+    background-color: #842d6d;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(245, 244, 244);
+}
+.foot{
+    margin-top: 40px;
+}
+.form h1{
+    color: #842d6d;
+}
+.form p{
+    color: #842d6d;
+}
+.frmgrp{
+    display: block;
+    margin-top: 25px;
+    /* margin: 10px; */
+}
+form input{
+    width: 450px;
+    height: 35px;
+}
+form select{
+    width: 450px;
+    height: 35px;
+    color: grey;
+    padding: 3px;
+}
+form button{
+    background-color: #842d6d;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+}
